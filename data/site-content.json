@@ -52,7 +52,63 @@
         "image": "https://images.unsplash.com/photo-1635843130314-c0b5cc832b79?auto=format&fit=crop&w=1600&q=70",
         "imageAlt": "Avellanas recién cosechadas",
         "intro": "Avellano europeo en plena expansión",
-        "body": "El avellano europeo encontró en el valle central de Chile uno de sus mejores climas fuera del Mediterráneo. Nuestros huertos en San Rafael producen avellanas de calibre y calidad exportable, con cosecha mecanizada y manejo de precisión durante todo el año."
+        "body": "El avellano europeo encontró en el valle central de Chile uno de sus mejores climas fuera del Mediterráneo. Nuestros huertos en San Rafael producen avellanas de calibre y calidad exportable, con cosecha mecanizada y manejo de precisión durante todo el año.",
+        "extra": [
+          {
+            "title": "El avellano en Chile",
+            "body": "Chile se convirtió en el principal productor de avellana europea del hemisferio sur, y el valle central concentra buena parte de esa expansión. Es un árbol noble y resistente, pero la diferencia entre un huerto correcto y uno excelente está en el manejo: así lo trabajamos en nuestro campo."
+          }
+        ],
+        "gallery": {
+          "title": "Del huerto al secado",
+          "items": [
+            {
+              "name": "Nuestros huertos",
+              "image": "https://images.unsplash.com/photo-1645004479244-3cc60c65df50?auto=format&fit=crop&w=900&q=70",
+              "imageAlt": "Árbol de avellano en plena temporada"
+            },
+            {
+              "name": "Avellanas recién cosechadas",
+              "image": "https://images.unsplash.com/photo-1694078421071-c3cfbbb3de44?auto=format&fit=crop&w=900&q=70",
+              "imageAlt": "Avellanas con cáscara recién cosechadas"
+            },
+            {
+              "name": "Avellanas secas",
+              "image": "https://images.unsplash.com/photo-1715861696705-67ccf052baf5?auto=format&fit=crop&w=900&q=70",
+              "imageAlt": "Avellanas secas listas para almacenaje"
+            }
+          ]
+        },
+        "quality": {
+          "title": "Cómo trabajamos el avellano",
+          "intro": "Seis pilares definen el manejo de nuestros huertos en San Rafael:",
+          "items": [
+            {
+              "label": "Suelo preparado en profundidad",
+              "text": "antes de plantar subsolamos hasta más de un metro para romper las capas compactadas. Las raíces del avellano necesitan respirar y drenar bien: un suelo que retiene agua en invierno frena el árbol por completo."
+            },
+            {
+              "label": "Riego por goteo y fertirrigación",
+              "text": "en primavera y verano el avellano exige agua constante. Regamos por goteo e inyectamos los nutrientes directamente en el agua, para que cada fruto llene bien y no quede vano."
+            },
+            {
+              "label": "Polinización diseñada",
+              "text": "el avellano no puede polinizarse con su propia variedad, así que el huerto se diseña desde el día uno con polinizadoras compatibles distribuidas estratégicamente, sincronizadas con la floración de invierno."
+            },
+            {
+              "label": "Poda para producir todos los años",
+              "text": "combatimos la alternancia productiva (un año mucho, otro poco) con poda profesional que mantiene la copa iluminada hasta el centro del árbol."
+            },
+            {
+              "label": "Control de humedad",
+              "text": "monitoreamos la humedad del suelo durante toda la temporada y, después de la cosecha, controlamos el secado de la avellana hasta su punto óptimo: es lo que asegura calidad, sabor y una larga vida de almacenaje."
+            },
+            {
+              "label": "Cosecha tecnificada",
+              "text": "la avellana cae naturalmente entre febrero y abril. Mantenemos el suelo del huerto plano y limpio para que las máquinas recolectoras levanten el fruto antes de las primeras lluvias de otoño."
+            }
+          ]
+        }
       },
       {
         "slug": "cerezas",

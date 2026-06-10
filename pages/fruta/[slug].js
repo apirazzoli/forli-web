@@ -83,6 +83,24 @@ export default function Fruta({ fruit }) {
             </section>
           ))}
 
+        {fruit.gallery && (
+          <section className="varieties">
+            <div className="section-head">
+              <h2>{fruit.gallery.title}</h2>
+            </div>
+            <div className="varieties-grid">
+              {fruit.gallery.items.map((g) => (
+                <div className="variety" key={g.name}>
+                  <div className="variety-photo">
+                    <img src={g.image} alt={g.imageAlt} loading="lazy" />
+                  </div>
+                  <div className="variety-name">{g.name}</div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {fruit.varieties && (
           <section className="varieties">
             <div className="section-head">
