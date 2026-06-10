@@ -1,0 +1,71 @@
+{
+  "brand": {
+    "name": "Agrícola Forli",
+    "tagline": "Tierra, cultivos y futuro",
+    "email": "contacto@forli.com",
+    "phone": "+56 9 0000 0000"
+  },
+  "map": {
+    "title": "Dónde estamos",
+    "query": "-35.26925,-71.4032672",
+    "zoom": 13
+  },
+  "home": {
+    "heroTitle": "Producción agrícola a gran escala",
+    "heroSubtitle": "Gestionamos campos productivos con un enfoque sostenible, combinando tecnología, experiencia y respeto por la tierra.",
+    "heroCtaLabel": "Conoce más",
+    "features": [
+      {
+        "title": "Nuestros campos",
+        "body": "En el corazón de la Región del Maule, en San Rafael, trabajamos suelos fértiles con vocación agrícola, rodeados del paisaje precordillerano del valle central de Chile.",
+        "image": "https://images.unsplash.com/photo-1715100421650-e34f094d75b6?auto=format&fit=crop&w=1200&q=70",
+        "imageAlt": "Campo de vides con la cordillera de fondo"
+      },
+      {
+        "title": "Cómo trabajamos",
+        "body": "Planificación de cada temporada con manejo agronómico de precisión: monitoreo del suelo, riego eficiente y decisiones basadas en datos, lote por lote.",
+        "image": "https://images.unsplash.com/photo-1686008674009-876c599f1fe9?auto=format&fit=crop&w=1200&q=70",
+        "imageAlt": "Vista aérea de hileras de cultivo"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Agricultura",
+        "body": "Siembra de granos y cultivos extensivos con manejo agronómico de precisión y planificación de largo plazo."
+      },
+      {
+        "title": "Tecnología",
+        "body": "Agricultura de precisión, monitoreo satelital y datos en tiempo real para decidir mejor en cada lote."
+      },
+      {
+        "title": "Sostenibilidad",
+        "body": "Prácticas regenerativas que cuidan el suelo, el agua y la biodiversidad para las próximas generaciones."
+      }
+    ]
+  },
+  "about": {
+    "intro": "Agrícola Forli es una empresa dedicada a la producción agrícola a escala, con base en San Rafael, Región del Maule, Chile.",
+    "tabs": [
+      {
+        "id": "historia",
+        "label": "Historia",
+        "body": "Desde nuestros inicios, hemos crecido integrando campos productivos bajo una gestión unificada, profesional y de largo plazo."
+      },
+      {
+        "id": "vision",
+        "label": "Visión",
+        "body": "Ser un referente en producción agrícola responsable, eficiente y sostenible en la región."
+      },
+      {
+        "id": "equipo",
+        "label": "Equipo",
+        "body": "Un equipo multidisciplinario de productores, agrónomos e ingenieros comprometidos con la excelencia operativa."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "intro": "Conversemos. Escríbenos o llámanos y te responderemos a la brevedad.",
+    "location": "Sector Santa Victoria, San Rafael, Región del Maule, Chile"
+  }
+}

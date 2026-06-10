@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "forli-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "C:\\Users\\Apirazzoli\\Desktop\\Claude\\forli-web",
+      "port": 3000
+    }
+  ]
+}

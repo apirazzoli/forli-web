@@ -1,0 +1,72 @@
+import Head from "next/head";
+import Link from "next/link";
+import Layout from "../components/Layout";
+import content from "../data/site-content.json";
+
+export default function Home() {
+  const { brand, map, home } = content;
+
+  const mapSrc = `https://maps.google.com/maps?q=${encodeURIComponent(
+    map.query
+  )}&z=${map.zoom}&output=embed`;
+
+  return (
+    <Layout>
+      <Head>
+        <title>{brand.name} — {brand.tagline}</title>
+        <meta name="description" content={home.heroSubtitle} />
+      </Head>
+
+      <section className="hero">
+        <span className="kicker">{brand.tagline}</span>
+        <h1>{home.heroTitle}</h1>
+        <p>{home.heroSubtitle}</p>
+        <Link href="/about" className="btn">
+          {home.heroCtaLabel}
+        </Link>
+      </section>
+
+      <div className="container">
+        {home.features.map((f, i) => (
+          <section className={`split ${i % 2 === 1 ? "reverse" : ""}`} key={i}>
+            <div className="split-photo">
+              <img src={f.image} alt={f.imageAlt} loading="lazy" />
+            </div>
+            <div className="split-text">
+              <h3>{f.title}</h3>
+              <p>{f.body}</p>
+            </div>
+          </section>
+        ))}
+      </div>
+
+      <section className="map-section">
+        <div className="container">
+          <div className="section-head">
+            <h2>{map.title}</h2>
+          </div>
+        </div>
+        <div className="map-frame">
+          <iframe
+            src={mapSrc}
+            title={map.title}
+            loading="lazy"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
+      </section>
+
+      <div className="container">
+        <section className="cards">
+          {home.sections.map((s, i) => (
+            <div className="card" key={i}>
+              <h3>{s.title}</h3>
+              <p>{s.body}</p>
+            </div>
+          ))}
+        </section>
+      </div>
+    </Layout>
+  );
+}
