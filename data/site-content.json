@@ -11,6 +11,8 @@
     "zoom": 13
   },
   "home": {
+    "heroImage": "https://images.unsplash.com/photo-1737947292441-b301ab724114?auto=format&fit=crop&w=2000&q=70",
+    "heroImageAlt": "Hileras de árboles en un huerto",
     "heroTitle": "Producción agrícola a gran escala",
     "heroSubtitle": "Gestionamos campos productivos con un enfoque sostenible, combinando tecnología, experiencia y respeto por la tierra.",
     "heroCtaLabel": "Conoce más",

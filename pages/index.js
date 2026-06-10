@@ -17,13 +17,18 @@ export default function Home() {
         <meta name="description" content={home.heroSubtitle} />
       </Head>
 
-      <section className="hero">
-        <span className="kicker">{brand.tagline}</span>
-        <h1>{home.heroTitle}</h1>
-        <p>{home.heroSubtitle}</p>
-        <Link href="/about" className="btn">
-          {home.heroCtaLabel}
-        </Link>
+      <section className="hero hero-photo">
+        <div className="hero-bg" aria-hidden="true">
+          <img src={home.heroImage} alt="" />
+        </div>
+        <div className="hero-content">
+          <span className="kicker">{brand.tagline}</span>
+          <h1>{home.heroTitle}</h1>
+          <p>{home.heroSubtitle}</p>
+          <Link href="/about" className="btn">
+            {home.heroCtaLabel}
+          </Link>
+        </div>
       </section>
 
       <div className="container">
