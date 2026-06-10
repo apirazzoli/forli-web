@@ -154,8 +154,8 @@
       {
         "slug": "manzanas",
         "name": "Manzanas",
-        "image": "https://images.unsplash.com/photo-1633545382904-5e97dedc6e19?auto=format&fit=crop&w=1600&q=70",
-        "imageAlt": "Manzano cargado de manzanas rojas",
+        "image": "https://images.unsplash.com/photo-1617235178117-a1f5fecb72bd?auto=format&fit=crop&w=1600&q=70",
+        "imageAlt": "Manzanas rojas en cajón de madera de cosecha",
         "intro": "Tradición frutícola del Maule",
         "body": "La manzana es parte de la identidad agrícola del Maule. Nuestros huertos combinan variedades tradicionales y nuevas, con riego tecnificado y cosecha cuidadosa para llegar a los mercados más exigentes.",
         "varieties": {
@@ -222,10 +222,11 @@
       {
         "slug": "peras",
         "name": "Peras",
-        "image": "https://images.unsplash.com/photo-1743872322753-dbaa93f00f51?auto=format&fit=crop&w=1600&q=70",
-        "imageAlt": "Peras colgando de la rama",
-        "intro": "Dulzura del valle central",
-        "body": "Las peras del valle central chileno maduran con la diferencia térmica entre el día y la noche que les da su dulzor característico. Trabajamos variedades de pera con destino a mercados internacionales, priorizando condición y vida de poscosecha."
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/PERO-ABATE-FETEL.jpg",
+        "imageAlt": "Pera Abate Fetel madurando en el árbol",
+        "imageCredit": "Foto: Pomodoro11 · CC BY-SA 4.0 · Wikimedia Commons",
+        "intro": "Variedad Abate Fetel",
+        "body": "Nuestra pera es la Abate Fetel: alargada, de cuello fino, con pulpa dulce y perfumada. Madura con la diferencia térmica entre el día y la noche del valle central, que le da su dulzor característico, y viaja a mercados internacionales priorizando condición y vida de poscosecha."
       }
     ]
   },
@@ -238,9 +239,14 @@
         "body": "Desde nuestros inicios, hemos crecido integrando campos productivos bajo una gestión unificada, profesional y de largo plazo."
       },
       {
+        "id": "mision",
+        "label": "Misión",
+        "body": "Sumar fruta de calidad al mundo desde San Rafael: avellanas, cerezas, manzanas y peras cultivadas con manejo de precisión, cuidando la tierra y a las personas que la trabajan."
+      },
+      {
         "id": "vision",
         "label": "Visión",
-        "body": "Ser un referente en producción agrícola responsable, eficiente y sostenible en la región."
+        "body": "Consolidarnos como un huerto de referencia del Maule, que produce todos los años, llega a los cinco continentes y sigue siendo orgullo de quienes lo trabajan."
       },
       {
         "id": "equipo",

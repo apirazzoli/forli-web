@@ -193,9 +193,11 @@ a {
 }
 
 .dropdown .caret {
-  font-size: 9px;
-  margin-left: 6px;
+  font-size: 15px;
+  margin-left: 7px;
   letter-spacing: 0;
+  vertical-align: -2px;
+  color: var(--accent-strong);
 }
 
 .dropdown-menu {
@@ -397,9 +399,21 @@ a {
 
 /* Fruit pages */
 .fruit-photo {
+  position: relative;
   margin-top: 48px;
   border-top: 1px solid var(--border-hairline);
   border-bottom: 1px solid var(--border-hairline);
+}
+
+.fruit-credit {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+  font-size: 11px;
+  color: rgba(251, 250, 245, 0.85);
+  background: rgba(20, 42, 29, 0.45);
+  padding: 2px 8px;
+  border-radius: 2px;
 }
 
 .fruit-photo img {

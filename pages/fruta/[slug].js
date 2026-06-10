@@ -68,6 +68,9 @@ export default function Fruta({ fruit }) {
 
       <div className="fruit-photo">
         <img src={fruit.image} alt={fruit.imageAlt} />
+        {fruit.imageCredit && (
+          <span className="fruit-credit">{fruit.imageCredit}</span>
+        )}
       </div>
 
       <div className="container">
