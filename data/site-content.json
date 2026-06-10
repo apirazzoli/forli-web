@@ -68,7 +68,67 @@
         "image": "https://images.unsplash.com/photo-1633545382904-5e97dedc6e19?auto=format&fit=crop&w=1600&q=70",
         "imageAlt": "Manzano cargado de manzanas rojas",
         "intro": "Tradición frutícola del Maule",
-        "body": "La manzana es parte de la identidad agrícola del Maule. Nuestros huertos combinan variedades tradicionales y nuevas, con riego tecnificado y cosecha cuidadosa para llegar a los mercados más exigentes."
+        "body": "La manzana es parte de la identidad agrícola del Maule. Nuestros huertos combinan variedades tradicionales y nuevas, con riego tecnificado y cosecha cuidadosa para llegar a los mercados más exigentes.",
+        "varieties": {
+          "title": "Nuestras variedades",
+          "items": [
+            {
+              "name": "Granny Smith",
+              "image": "https://images.unsplash.com/photo-1719024651951-614f7c51bc7e?auto=format&fit=crop&w=800&q=70",
+              "imageAlt": "Manzanas verdes Granny Smith"
+            },
+            {
+              "name": "Royal Gala",
+              "image": "https://images.unsplash.com/photo-1576179636333-f13b174b3c9a?auto=format&fit=crop&w=800&q=70",
+              "imageAlt": "Manzanas Royal Gala con vetas rojas"
+            },
+            {
+              "name": "Fuji",
+              "image": "https://images.unsplash.com/photo-1582927338750-66a116047612?auto=format&fit=crop&w=800&q=70",
+              "imageAlt": "Manzanas Fuji rojo oscuro"
+            }
+          ]
+        },
+        "exportMap": {
+          "title": "Dónde exportamos",
+          "destinations": [
+            { "name": "Canadá", "x": 18, "y": 22 },
+            { "name": "EEUU", "x": 20, "y": 35 },
+            { "name": "México", "x": 16.5, "y": 44 },
+            { "name": "Latinoamérica", "x": 30, "y": 63 },
+            { "name": "Reino Unido", "x": 47.3, "y": 24.5 },
+            { "name": "Europa", "x": 51.5, "y": 27 },
+            { "name": "Medio Oriente", "x": 58, "y": 42 },
+            { "name": "India", "x": 66, "y": 47 },
+            { "name": "Asia", "x": 74, "y": 37 }
+          ]
+        },
+        "quality": {
+          "title": "¿Cómo se mide la calidad de una manzana o pera?",
+          "intro": "La calidad de una manzana o pera puede medirse evaluando determinados aspectos, como:",
+          "items": [
+            {
+              "label": "Tamaño y forma",
+              "text": "las manzanas y peras grandes con un aspecto uniforme se consideran mejores que las pequeñas o con cambios en su forma."
+            },
+            {
+              "label": "Color",
+              "text": "las frutas con colores más brillantes indican madurez y salud."
+            },
+            {
+              "label": "Textura",
+              "text": "una textura uniforme es un indicador de una fruta sana y bien desarrollada."
+            },
+            {
+              "label": "Sabor",
+              "text": "el sabor dulce con matices ácidos se considera mejor."
+            },
+            {
+              "label": "Ausencia de defectos",
+              "text": "sin manchas ni grietas."
+            }
+          ]
+        }
       },
       {
         "slug": "peras",

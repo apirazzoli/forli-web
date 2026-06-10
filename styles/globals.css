@@ -374,6 +374,145 @@ a {
   line-height: var(--lh-relaxed);
 }
 
+/* Varieties */
+.varieties .section-head {
+  padding-top: 88px;
+}
+
+.varieties-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  padding: 32px 0 8px;
+}
+
+.variety {
+  text-align: center;
+}
+
+.variety-photo {
+  border: 1px solid var(--border-hairline);
+  border-radius: 2px;
+  overflow: hidden;
+  background: var(--surface-card);
+}
+
+.variety-photo img {
+  display: block;
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.variety:hover .variety-photo img {
+  transform: scale(1.04);
+}
+
+.variety-name {
+  margin-top: 16px;
+  text-transform: uppercase;
+  font-size: var(--fs-label);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-label);
+  color: var(--text-primary);
+}
+
+/* Export map */
+.export-map-section .section-head {
+  padding-top: 88px;
+}
+
+.export-map {
+  position: relative;
+  margin-top: 24px;
+  border: 1px solid var(--border-hairline);
+  border-radius: 2px;
+  background: var(--sand-50);
+  padding: 24px 12px;
+}
+
+.export-map-base {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: grayscale(1) opacity(0.35);
+}
+
+.export-pin {
+  position: absolute;
+  transform: translate(-50%, -90%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.apple-marker {
+  width: 26px;
+  height: 26px;
+  filter: drop-shadow(0 2px 3px rgba(20, 42, 29, 0.25));
+}
+
+.export-pin-label {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.12em;
+  color: var(--green-900);
+  background: rgba(251, 250, 245, 0.85);
+  padding: 2px 7px;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+/* Quality */
+.quality .section-head {
+  padding-top: 88px;
+}
+
+.quality-intro {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: var(--fs-body);
+}
+
+.quality-list {
+  max-width: 620px;
+  margin: 36px auto 0;
+  list-style: none;
+}
+
+.quality-list li {
+  position: relative;
+  padding: 18px 0 18px 36px;
+  border-bottom: 1px solid var(--border-soft);
+  color: var(--text-muted);
+  font-size: var(--fs-base);
+  line-height: var(--lh-relaxed);
+}
+
+.quality-list li::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 28px;
+  width: 14px;
+  height: 2px;
+  background: var(--divider-gold);
+}
+
+.quality-list li:last-child {
+  border-bottom: none;
+}
+
+.quality-label {
+  font-weight: var(--fw-semibold);
+  color: var(--text-primary);
+}
+
 .fruit-others {
   text-align: center;
   padding: 64px 0 88px;
@@ -639,6 +778,18 @@ a.contact-value:hover {
   }
   .fruit-photo img {
     height: 280px;
+  }
+  .varieties-grid {
+    grid-template-columns: 1fr;
+  }
+  .apple-marker {
+    width: 16px;
+    height: 16px;
+  }
+  .export-pin-label {
+    font-size: 8px;
+    letter-spacing: 0.06em;
+    padding: 1px 4px;
   }
   .hero {
     padding: 96px 20px 108px;
