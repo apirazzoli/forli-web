@@ -374,6 +374,15 @@ a {
   line-height: var(--lh-relaxed);
 }
 
+/* Extra text blocks */
+.extra-block .section-head {
+  padding-top: 72px;
+}
+
+.extra-body {
+  margin-top: 8px;
+}
+
 /* Varieties */
 .varieties .section-head {
   padding-top: 88px;

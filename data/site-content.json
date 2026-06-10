@@ -60,7 +60,38 @@
         "image": "https://images.unsplash.com/photo-1686182368088-c355cb622561?auto=format&fit=crop&w=1600&q=70",
         "imageAlt": "Cerezas maduras en el árbol",
         "intro": "La fruta estrella de exportación",
-        "body": "La cereza chilena es reconocida en el mundo entero, y la Región del Maule está en el corazón de esa historia. Producimos cerezas de exportación con variedades de alta demanda, cuidando cada etapa desde la floración hasta el embalaje."
+        "body": "La cereza chilena es reconocida en el mundo entero, y la Región del Maule está en el corazón de esa historia. Producimos cerezas de exportación con variedades de alta demanda, cuidando cada etapa desde la floración hasta el embalaje.",
+        "extra": [
+          {
+            "title": "Cerezas chilenas al mundo",
+            "body": "Chile se consolidó como el gran exportador de cerezas del hemisferio sur, y la mayor parte de esa fruta viaja a Asia, donde la cereza chilena es sinónimo de calidad. El Maule es una de las regiones que lideran esa producción, y desde San Rafael somos parte de esa historia."
+          },
+          {
+            "title": "Un valle hecho para la cereza",
+            "body": "El secreto está en el clima mediterráneo del valle central: inviernos suaves que le dan al árbol el frío que necesita, veranos secos y luminosos que concentran el dulzor, y el agua que baja de la cordillera. Pocas zonas del mundo reúnen estas condiciones."
+          },
+          {
+            "title": "Temporada y variedades",
+            "body": "La cosecha va de octubre a febrero, con su punto más alto entre fines de diciembre y comienzos de enero. Trabajamos variedades de alta demanda internacional como Lapins, Santina y Regina, elegidas por su sabor, firmeza y viaje de poscosecha."
+          },
+          {
+            "title": "Una fruta delicada",
+            "body": "La cereza exige un cuidado especial en cada paso: cosecha a mano, selección rigurosa, frío inmediato y un embalaje que la proteja durante el viaje. Todo el proceso está pensado para que llegue al otro lado del mundo tan fresca como salió del huerto."
+          }
+        ],
+        "exportMap": {
+          "title": "Dónde exportamos",
+          "marker": "cherry",
+          "destinations": [
+            { "name": "China", "x": 72.5, "y": 38 },
+            { "name": "Corea del Sur", "x": 79.5, "y": 30.5 },
+            { "name": "EEUU", "x": 20, "y": 31 },
+            { "name": "Latinoamérica", "x": 30, "y": 63 },
+            { "name": "Europa", "x": 51.5, "y": 27 },
+            { "name": "Medio Oriente", "x": 58, "y": 42 },
+            { "name": "India", "x": 66, "y": 47 }
+          ]
+        }
       },
       {
         "slug": "manzanas",
@@ -93,8 +124,8 @@
           "title": "Dónde exportamos",
           "destinations": [
             { "name": "Canadá", "x": 18, "y": 22 },
-            { "name": "EEUU", "x": 20, "y": 35 },
-            { "name": "México", "x": 16.5, "y": 44 },
+            { "name": "EEUU", "x": 20, "y": 31 },
+            { "name": "México", "x": 17.2, "y": 42.5 },
             { "name": "Latinoamérica", "x": 30, "y": 63 },
             { "name": "Reino Unido", "x": 47.3, "y": 24.5 },
             { "name": "Europa", "x": 51.5, "y": 27 },
@@ -104,12 +135,12 @@
           ]
         },
         "quality": {
-          "title": "¿Cómo se mide la calidad de una manzana o pera?",
-          "intro": "La calidad de una manzana o pera puede medirse evaluando determinados aspectos, como:",
+          "title": "¿Cómo se mide la calidad de una manzana?",
+          "intro": "La calidad de una manzana puede medirse evaluando determinados aspectos, como:",
           "items": [
             {
               "label": "Tamaño y forma",
-              "text": "las manzanas y peras grandes con un aspecto uniforme se consideran mejores que las pequeñas o con cambios en su forma."
+              "text": "las manzanas grandes con un aspecto uniforme se consideran mejores que las pequeñas o con cambios en su forma."
             },
             {
               "label": "Color",

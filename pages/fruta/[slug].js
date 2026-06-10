@@ -28,6 +28,26 @@ function AppleMarker() {
   );
 }
 
+function CherryMarker() {
+  return (
+    <svg viewBox="0 0 24 24" className="apple-marker" aria-hidden="true">
+      <path
+        d="M8.5 9.5C9.5 6 12 3.6 15.5 2.8M15 9.8c-1.8-3.4-3-5.3-6.5-7"
+        fill="none"
+        stroke="#4A3522"
+        strokeWidth="1.3"
+        strokeLinecap="round"
+      />
+      <path
+        d="M15.2 3.1c2-1 4.1-.7 5.2 0-.7 1.3-2.5 2.3-4.3 1.9-.4-.1-.7-.3-.9-.5z"
+        fill="#3C7252"
+      />
+      <circle cx="7.5" cy="14.5" r="5" fill="#A32D2D" />
+      <circle cx="15.5" cy="16.5" r="4.5" fill="#7C1F1F" />
+    </svg>
+  );
+}
+
 export default function Fruta({ fruit }) {
   const { brand, fruits } = content;
   const others = fruits.items.filter((f) => f.slug !== fruit.slug);
@@ -52,6 +72,16 @@ export default function Fruta({ fruit }) {
 
       <div className="container">
         <p className="fruit-body">{fruit.body}</p>
+
+        {fruit.extra &&
+          fruit.extra.map((block) => (
+            <section className="extra-block" key={block.title}>
+              <div className="section-head">
+                <h2>{block.title}</h2>
+              </div>
+              <p className="fruit-body extra-body">{block.body}</p>
+            </section>
+          ))}
 
         {fruit.varieties && (
           <section className="varieties">
@@ -88,7 +118,11 @@ export default function Fruta({ fruit }) {
                   key={d.name}
                   style={{ left: `${d.x}%`, top: `${d.y}%` }}
                 >
-                  <AppleMarker />
+                  {fruit.exportMap.marker === "cherry" ? (
+                    <CherryMarker />
+                  ) : (
+                    <AppleMarker />
+                  )}
                   <span className="export-pin-label">{d.name}</span>
                 </div>
               ))}
