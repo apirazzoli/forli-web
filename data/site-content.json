@@ -43,6 +43,43 @@
       }
     ]
   },
+  "fruits": {
+    "menuLabel": "Nuestra fruta",
+    "items": [
+      {
+        "slug": "avellanos",
+        "name": "Avellanos",
+        "image": "https://images.unsplash.com/photo-1635843130314-c0b5cc832b79?auto=format&fit=crop&w=1600&q=70",
+        "imageAlt": "Avellanas recién cosechadas",
+        "intro": "Avellano europeo en plena expansión",
+        "body": "El avellano europeo encontró en el valle central de Chile uno de sus mejores climas fuera del Mediterráneo. Nuestros huertos en San Rafael producen avellanas de calibre y calidad exportable, con cosecha mecanizada y manejo de precisión durante todo el año."
+      },
+      {
+        "slug": "cerezas",
+        "name": "Cerezas",
+        "image": "https://images.unsplash.com/photo-1686182368088-c355cb622561?auto=format&fit=crop&w=1600&q=70",
+        "imageAlt": "Cerezas maduras en el árbol",
+        "intro": "La fruta estrella de exportación",
+        "body": "La cereza chilena es reconocida en el mundo entero, y la Región del Maule está en el corazón de esa historia. Producimos cerezas de exportación con variedades de alta demanda, cuidando cada etapa desde la floración hasta el embalaje."
+      },
+      {
+        "slug": "manzanas",
+        "name": "Manzanas",
+        "image": "https://images.unsplash.com/photo-1633545382904-5e97dedc6e19?auto=format&fit=crop&w=1600&q=70",
+        "imageAlt": "Manzano cargado de manzanas rojas",
+        "intro": "Tradición frutícola del Maule",
+        "body": "La manzana es parte de la identidad agrícola del Maule. Nuestros huertos combinan variedades tradicionales y nuevas, con riego tecnificado y cosecha cuidadosa para llegar a los mercados más exigentes."
+      },
+      {
+        "slug": "peras",
+        "name": "Peras",
+        "image": "https://images.unsplash.com/photo-1743872322753-dbaa93f00f51?auto=format&fit=crop&w=1600&q=70",
+        "imageAlt": "Peras colgando de la rama",
+        "intro": "Dulzura del valle central",
+        "body": "Las peras del valle central chileno maduran con la diferencia térmica entre el día y la noche que les da su dulzor característico. Trabajamos variedades de pera con destino a mercados internacionales, priorizando condición y vida de poscosecha."
+      }
+    ]
+  },
   "about": {
     "intro": "Agrícola Forli es una empresa dedicada a la producción agrícola a escala, con base en San Rafael, Región del Maule, Chile.",
     "tabs": [
