@@ -33,7 +33,11 @@ export default function Home() {
 
       <div className="container">
         {home.features.map((f, i) => (
-          <section className={`split ${i % 2 === 1 ? "reverse" : ""}`} key={i}>
+          <section
+            className={`split ${i % 2 === 1 ? "reverse" : ""}`}
+            data-reveal={i % 2 === 0 ? "left" : "right"}
+            key={i}
+          >
             <div className="split-photo">
               <img src={f.image} alt={f.imageAlt} loading="lazy" />
             </div>
@@ -45,7 +49,7 @@ export default function Home() {
         ))}
       </div>
 
-      <section className="map-section">
+      <section className="map-section" data-reveal="left">
         <div className="container">
           <div className="section-head">
             <h2>{map.title}</h2>
@@ -65,7 +69,12 @@ export default function Home() {
       <div className="container">
         <section className="cards">
           {home.sections.map((s, i) => (
-            <div className="card" key={i}>
+            <div
+              className="card"
+              data-reveal={i % 2 === 0 ? "left" : "right"}
+              style={{ transitionDelay: `${i * 120}ms` }}
+              key={i}
+            >
               <h3>{s.title}</h3>
               <p>{s.body}</p>
             </div>
