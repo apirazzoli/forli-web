@@ -21,9 +21,9 @@ export default function About() {
           <h2>Nosotros</h2>
         </div>
 
-        <p className="intro">{about.intro}</p>
+        <p className="intro" data-reveal="left">{about.intro}</p>
 
-        <div className="tabs">
+        <div className="tabs" data-reveal="right">
           {about.tabs.map((t) => (
             <button
               key={t.id}

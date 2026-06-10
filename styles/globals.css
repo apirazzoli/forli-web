@@ -409,15 +409,6 @@ a {
   margin-bottom: 16px;
 }
 
-.split-text h3::before {
-  content: "";
-  display: block;
-  width: 28px;
-  height: 2px;
-  background: var(--divider-gold);
-  margin-bottom: 22px;
-}
-
 .split-text p {
   color: var(--text-muted);
   font-size: var(--fs-body);
@@ -646,15 +637,6 @@ a {
   text-align: center;
 }
 
-.contact-item::before {
-  content: "";
-  display: block;
-  width: 28px;
-  height: 2px;
-  background: var(--divider-gold);
-  margin: 0 auto 20px;
-}
-
 .contact-label {
   text-transform: uppercase;
   font-size: var(--fs-label);
@@ -716,15 +698,6 @@ a.contact-value:hover {
   border: 1px solid var(--border-hairline);
   border-radius: 2px;
   transition: border-color 0.25s ease, transform 0.25s ease;
-}
-
-.card::before {
-  content: "";
-  display: block;
-  width: 28px;
-  height: 2px;
-  background: var(--divider-gold);
-  margin-bottom: 24px;
 }
 
 .card:hover {

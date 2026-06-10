@@ -66,7 +66,7 @@ export default function Fruta({ fruit }) {
         <p className="intro">{fruit.intro}</p>
       </div>
 
-      <div className="fruit-photo">
+      <div className="fruit-photo" data-reveal="left">
         <img src={fruit.image} alt={fruit.imageAlt} />
         {fruit.imageCredit && (
           <span className="fruit-credit">{fruit.imageCredit}</span>
@@ -74,11 +74,15 @@ export default function Fruta({ fruit }) {
       </div>
 
       <div className="container">
-        <p className="fruit-body">{fruit.body}</p>
+        <p className="fruit-body" data-reveal="right">{fruit.body}</p>
 
         {fruit.extra &&
-          fruit.extra.map((block) => (
-            <section className="extra-block" key={block.title}>
+          fruit.extra.map((block, i) => (
+            <section
+              className="extra-block"
+              data-reveal={i % 2 === 0 ? "left" : "right"}
+              key={block.title}
+            >
               <div className="section-head">
                 <h2>{block.title}</h2>
               </div>
@@ -87,7 +91,7 @@ export default function Fruta({ fruit }) {
           ))}
 
         {fruit.gallery && (
-          <section className="varieties">
+          <section className="varieties" data-reveal="left">
             <div className="section-head">
               <h2>{fruit.gallery.title}</h2>
             </div>
@@ -105,7 +109,7 @@ export default function Fruta({ fruit }) {
         )}
 
         {fruit.varieties && (
-          <section className="varieties">
+          <section className="varieties" data-reveal="right">
             <div className="section-head">
               <h2>{fruit.varieties.title}</h2>
             </div>
@@ -123,7 +127,7 @@ export default function Fruta({ fruit }) {
         )}
 
         {fruit.exportMap && (
-          <section className="export-map-section">
+          <section className="export-map-section" data-reveal="left">
             <div className="section-head">
               <h2>{fruit.exportMap.title}</h2>
             </div>
@@ -152,7 +156,7 @@ export default function Fruta({ fruit }) {
         )}
 
         {fruit.quality && (
-          <section className="quality">
+          <section className="quality" data-reveal="right">
             <div className="section-head">
               <h2>{fruit.quality.title}</h2>
             </div>
@@ -167,7 +171,7 @@ export default function Fruta({ fruit }) {
           </section>
         )}
 
-        <div className="fruit-others">
+        <div className="fruit-others" data-reveal="left">
           <div className="fruit-others-label">También cultivamos</div>
           <div className="fruit-others-links">
             {others.map((f) => (
