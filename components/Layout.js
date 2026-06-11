@@ -1,9 +1,12 @@
 import { useEffect } from "react";
 import Link from "next/link";
-import content from "../data/site-content.json";
+import { useRouter } from "next/router";
+import getContent from "../lib/content";
 
 export default function Layout({ children }) {
-  const { brand, fruits } = content;
+  const router = useRouter();
+  const content = getContent(router.locale);
+  const { brand, fruits, ui } = content;
 
   useEffect(() => {
     const els = document.querySelectorAll("[data-reveal]");
@@ -43,7 +46,7 @@ export default function Layout({ children }) {
       io.disconnect();
       window.removeEventListener("scroll", catchSkipped);
     };
-  }, []);
+  }, [router.locale]);
 
   return (
     <>
@@ -52,8 +55,8 @@ export default function Layout({ children }) {
           {brand.name.toUpperCase()}
         </Link>
         <div className="links">
-          <Link href="/">Inicio</Link>
-          <Link href="/about">Nosotros</Link>
+          <Link href="/">{ui.navHome}</Link>
+          <Link href="/about">{ui.navAbout}</Link>
           <div className="dropdown">
             <span className="dropdown-label">
               {fruits.menuLabel}
@@ -67,7 +70,24 @@ export default function Layout({ children }) {
               ))}
             </div>
           </div>
-          <Link href="/contacto">Contacto</Link>
+          <Link href="/contacto">{ui.navContact}</Link>
+          <div className="lang-switch">
+            <Link
+              href={router.asPath}
+              locale="es"
+              className={router.locale === "es" ? "active" : ""}
+            >
+              ES
+            </Link>
+            <span className="lang-sep">/</span>
+            <Link
+              href={router.asPath}
+              locale="en"
+              className={router.locale === "en" ? "active" : ""}
+            >
+              EN
+            </Link>
+          </div>
         </div>
       </nav>
 
@@ -77,6 +97,9 @@ export default function Layout({ children }) {
         <div className="brand">{brand.name.toUpperCase()}</div>
         <div className="contact">
           {brand.email} &nbsp;·&nbsp; {brand.phone}
+        </div>
+        <div className="terms">
+          {ui.terms} · © {new Date().getFullYear()} {brand.name} — {ui.rights}
         </div>
       </footer>
     </>

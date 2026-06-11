@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import Layout from "../../components/Layout";
-import content from "../../data/site-content.json";
+import getContent from "../../lib/content";
 
 const WORLD_MAP_SRC =
   "https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg";
@@ -48,9 +49,12 @@ function CherryMarker() {
   );
 }
 
-export default function Fruta({ fruit }) {
-  const { brand, fruits } = content;
-  const others = fruits.items.filter((f) => f.slug !== fruit.slug);
+export default function Fruta({ slug }) {
+  const { locale } = useRouter();
+  const content = getContent(locale);
+  const { brand, fruits, ui } = content;
+  const fruit = fruits.items.find((f) => f.slug === slug);
+  const others = fruits.items.filter((f) => f.slug !== slug);
 
   return (
     <Layout>
@@ -134,7 +138,7 @@ export default function Fruta({ fruit }) {
             <div className="export-map">
               <img
                 src={WORLD_MAP_SRC}
-                alt="Mapa mundial de destinos de exportación"
+                alt=""
                 className="export-map-base"
               />
               {fruit.exportMap.destinations.map((d) => (
@@ -172,7 +176,7 @@ export default function Fruta({ fruit }) {
         )}
 
         <div className="fruit-others" data-reveal="left">
-          <div className="fruit-others-label">También cultivamos</div>
+          <div className="fruit-others-label">{ui.alsoGrow}</div>
           <div className="fruit-others-links">
             {others.map((f) => (
               <Link href={`/fruta/${f.slug}`} key={f.slug} className="tab-btn">
@@ -186,14 +190,16 @@ export default function Fruta({ fruit }) {
   );
 }
 
-export function getStaticPaths() {
+export function getStaticPaths({ locales }) {
+  const es = getContent("es");
   return {
-    paths: content.fruits.items.map((f) => ({ params: { slug: f.slug } })),
+    paths: locales.flatMap((locale) =>
+      es.fruits.items.map((f) => ({ params: { slug: f.slug }, locale }))
+    ),
     fallback: false,
   };
 }
 
 export function getStaticProps({ params }) {
-  const fruit = content.fruits.items.find((f) => f.slug === params.slug);
-  return { props: { fruit } };
+  return { props: { slug: params.slug } };
 }

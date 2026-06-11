@@ -1,0 +1,277 @@
+{
+  "ui": {
+    "navHome": "Home",
+    "navAbout": "About us",
+    "navContact": "Contact",
+    "alsoGrow": "We also grow",
+    "terms": "Terms and conditions",
+    "rights": "All rights reserved."
+  },
+  "brand": {
+    "name": "Agrícola Forli",
+    "tagline": "Land, crops and future",
+    "email": "contacto@forli.com",
+    "phone": "+56 9 0000 0000"
+  },
+  "map": {
+    "title": "Where we are",
+    "query": "-35.26925,-71.4032672",
+    "zoom": 13
+  },
+  "home": {
+    "heroImage": "https://images.unsplash.com/photo-1737947292441-b301ab724114?auto=format&fit=crop&w=2000&q=70",
+    "heroImageAlt": "Rows of orchard trees",
+    "heroTitle": "Large-scale fruit growing",
+    "heroSubtitle": "We manage productive farmland with a sustainable approach, combining technology, experience and respect for the land.",
+    "heroCtaLabel": "Learn more",
+    "features": [
+      {
+        "title": "Our fields",
+        "body": "In the heart of Chile's Maule Region, in San Rafael, we farm fertile soils with a true agricultural vocation, surrounded by the foothill landscape of the central valley.",
+        "image": "https://images.unsplash.com/photo-1715100421650-e34f094d75b6?auto=format&fit=crop&w=1200&q=70",
+        "imageAlt": "Orchard field with mountains in the background"
+      },
+      {
+        "title": "How we work",
+        "body": "Every season is planned with precision agronomy: soil monitoring, efficient irrigation and data-driven decisions, block by block.",
+        "image": "https://images.unsplash.com/photo-1686008674009-876c599f1fe9?auto=format&fit=crop&w=1200&q=70",
+        "imageAlt": "Aerial view of crop rows"
+      }
+    ],
+    "banner": {
+      "image": "https://images.unsplash.com/photo-1778101477174-810f4c441988?auto=format&fit=crop&w=2000&q=70",
+      "imageAlt": "Cherry trees in bloom in spring",
+      "title": "Growing is everything",
+      "body": "Every spring, the bloom sets the season. Caring for the orchard at every stage — blossom, fruit set, harvest — is what lets us grow without ever compromising the quality that defines us."
+    },
+    "sections": [
+      {
+        "title": "Agriculture",
+        "body": "Grains and extensive crops grown with precision agronomy and long-term planning."
+      },
+      {
+        "title": "Technology",
+        "body": "Precision agriculture, satellite monitoring and real-time data to make better decisions in every block."
+      },
+      {
+        "title": "Sustainability",
+        "body": "Regenerative practices that care for the soil, water and biodiversity for generations to come."
+      }
+    ]
+  },
+  "fruits": {
+    "menuLabel": "Our fruit",
+    "items": [
+      {
+        "slug": "avellanos",
+        "name": "Hazelnuts",
+        "image": "https://images.unsplash.com/photo-1635843130314-c0b5cc832b79?auto=format&fit=crop&w=1600&q=70",
+        "imageAlt": "Freshly harvested hazelnuts",
+        "intro": "European hazelnut in full expansion",
+        "body": "The European hazelnut found in Chile's central valley one of its best climates outside the Mediterranean. Our orchards in San Rafael produce hazelnuts of exportable size and quality, with mechanized harvesting and precision management all year round.",
+        "extra": [
+          {
+            "title": "Hazelnuts in Chile",
+            "body": "Chile has become the leading producer of European hazelnuts in the southern hemisphere, and the central valley concentrates much of that growth. It is a noble, resilient tree, but the difference between a decent orchard and an excellent one lies in the management: this is how we work our fields."
+          }
+        ],
+        "gallery": {
+          "title": "From orchard to drying",
+          "items": [
+            {
+              "name": "Our orchards",
+              "image": "https://images.unsplash.com/photo-1645004479244-3cc60c65df50?auto=format&fit=crop&w=900&q=70",
+              "imageAlt": "Hazelnut tree in full season"
+            },
+            {
+              "name": "Freshly harvested",
+              "image": "https://images.unsplash.com/photo-1694078421071-c3cfbbb3de44?auto=format&fit=crop&w=900&q=70",
+              "imageAlt": "Hazelnuts in shell just harvested"
+            },
+            {
+              "name": "Dried hazelnuts",
+              "image": "https://images.unsplash.com/photo-1715861696705-67ccf052baf5?auto=format&fit=crop&w=900&q=70",
+              "imageAlt": "Dried hazelnuts ready for storage"
+            }
+          ]
+        },
+        "quality": {
+          "title": "How we grow hazelnuts",
+          "intro": "Six pillars define the management of our orchards in San Rafael:",
+          "items": [
+            {
+              "label": "Deep soil preparation",
+              "text": "before planting we subsoil to over a metre deep to break compacted layers. Hazelnut roots need to breathe and drain well: soil that holds water in winter brings the tree to a halt."
+            },
+            {
+              "label": "Drip irrigation and fertigation",
+              "text": "in spring and summer the hazelnut demands constant water. We drip-irrigate and inject nutrients directly into the water so every nut fills well and none come out empty."
+            },
+            {
+              "label": "Designed pollination",
+              "text": "hazelnuts cannot pollinate within their own variety, so the orchard is designed from day one with compatible pollinizers strategically distributed, synchronized with the winter bloom."
+            },
+            {
+              "label": "Pruning for production every year",
+              "text": "we fight alternate bearing (one heavy year, one light year) with professional pruning that keeps the canopy lit all the way to the centre of the tree."
+            },
+            {
+              "label": "Humidity control",
+              "text": "we monitor soil moisture throughout the season and, after harvest, control the drying of the nut to its optimum point: that is what ensures quality, flavour and a long storage life."
+            },
+            {
+              "label": "Mechanized harvest",
+              "text": "hazelnuts fall naturally between February and April. We keep the orchard floor flat and clean so the harvesters can pick up the crop before the first autumn rains."
+            }
+          ]
+        }
+      },
+      {
+        "slug": "cerezas",
+        "name": "Cherries",
+        "image": "https://images.unsplash.com/photo-1686182368088-c355cb622561?auto=format&fit=crop&w=1600&q=70",
+        "imageAlt": "Ripe cherries on the tree",
+        "intro": "The star export fruit",
+        "body": "Chilean cherries are recognized all over the world, and the Maule Region is at the heart of that story. We grow export cherries of high-demand varieties, caring for every stage from bloom to packing.",
+        "extra": [
+          {
+            "title": "Chilean cherries to the world",
+            "body": "Chile has established itself as the great cherry exporter of the southern hemisphere, and most of that fruit travels to Asia, where Chilean cherries are a byword for quality. Maule is one of the leading regions, and from San Rafael we are part of that story."
+          },
+          {
+            "title": "A valley made for cherries",
+            "body": "The secret is the Mediterranean climate of the central valley: mild winters that give the tree the chill it needs, dry and luminous summers that concentrate sweetness, and water flowing down from the Andes. Few places in the world combine these conditions."
+          },
+          {
+            "title": "Season and varieties",
+            "body": "Harvest runs from October to February, peaking between late December and early January. We grow internationally sought-after varieties such as Lapins, Santina and Regina, chosen for flavour, firmness and post-harvest travel."
+          },
+          {
+            "title": "A delicate fruit",
+            "body": "Cherries demand special care at every step: hand picking, rigorous selection, immediate cooling and packaging that protects them on the journey. The whole process is designed so they arrive on the other side of the world as fresh as they left the orchard."
+          }
+        ],
+        "exportMap": {
+          "title": "Where we export",
+          "marker": "cherry",
+          "destinations": [
+            { "name": "China", "x": 72.5, "y": 38 },
+            { "name": "South Korea", "x": 79.5, "y": 30.5 },
+            { "name": "USA", "x": 20, "y": 31 },
+            { "name": "Latin America", "x": 30, "y": 63 },
+            { "name": "Europe", "x": 51.5, "y": 27 },
+            { "name": "Middle East", "x": 58, "y": 42 },
+            { "name": "India", "x": 66, "y": 47 }
+          ]
+        }
+      },
+      {
+        "slug": "manzanas",
+        "name": "Apples",
+        "image": "https://images.unsplash.com/photo-1617235178117-a1f5fecb72bd?auto=format&fit=crop&w=1600&q=70",
+        "imageAlt": "Red apples in a wooden harvest crate",
+        "intro": "Maule's fruit-growing tradition",
+        "body": "Apples are part of Maule's agricultural identity. Our orchards combine traditional and new varieties, with technified irrigation and careful harvesting to reach the most demanding markets.",
+        "varieties": {
+          "title": "Our varieties",
+          "items": [
+            {
+              "name": "Granny Smith",
+              "image": "https://images.unsplash.com/photo-1719024651951-614f7c51bc7e?auto=format&fit=crop&w=800&q=70",
+              "imageAlt": "Green Granny Smith apples"
+            },
+            {
+              "name": "Royal Gala",
+              "image": "https://images.unsplash.com/photo-1576179636333-f13b174b3c9a?auto=format&fit=crop&w=800&q=70",
+              "imageAlt": "Royal Gala apples with red stripes"
+            },
+            {
+              "name": "Fuji",
+              "image": "https://images.unsplash.com/photo-1582927338750-66a116047612?auto=format&fit=crop&w=800&q=70",
+              "imageAlt": "Dark red Fuji apples"
+            }
+          ]
+        },
+        "exportMap": {
+          "title": "Where we export",
+          "destinations": [
+            { "name": "Canada", "x": 18, "y": 22 },
+            { "name": "USA", "x": 20, "y": 31 },
+            { "name": "Mexico", "x": 17.2, "y": 42.5 },
+            { "name": "Latin America", "x": 30, "y": 63 },
+            { "name": "United Kingdom", "x": 47.3, "y": 24.5 },
+            { "name": "Europe", "x": 51.5, "y": 27 },
+            { "name": "Middle East", "x": 58, "y": 42 },
+            { "name": "India", "x": 66, "y": 47 },
+            { "name": "Asia", "x": 74, "y": 37 }
+          ]
+        },
+        "quality": {
+          "title": "How is the quality of an apple measured?",
+          "intro": "The quality of an apple can be measured by evaluating aspects such as:",
+          "items": [
+            {
+              "label": "Size and shape",
+              "text": "large apples with a uniform appearance are considered better than small or misshapen ones."
+            },
+            {
+              "label": "Colour",
+              "text": "brighter colours indicate ripeness and health."
+            },
+            {
+              "label": "Texture",
+              "text": "a uniform texture indicates healthy, well-developed fruit."
+            },
+            {
+              "label": "Flavour",
+              "text": "a sweet flavour with acidic notes is considered best."
+            },
+            {
+              "label": "Absence of defects",
+              "text": "no blemishes or cracks."
+            }
+          ]
+        }
+      },
+      {
+        "slug": "peras",
+        "name": "Pears",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/PERO-ABATE-FETEL.jpg",
+        "imageAlt": "Abate Fetel pear ripening on the tree",
+        "imageCredit": "Photo: Pomodoro11 · CC BY-SA 4.0 · Wikimedia Commons",
+        "intro": "Abate Fetel variety",
+        "body": "Our pear is the Abate Fetel: elongated, slender-necked, with sweet, fragrant flesh. It ripens with the day-night temperature swing of the central valley, which gives it its characteristic sweetness, and travels to international markets prioritizing condition and post-harvest life."
+      }
+    ]
+  },
+  "about": {
+    "intro": "Agrícola Forli is a company dedicated to large-scale fruit growing, based in San Rafael, Maule Region, Chile.",
+    "tabs": [
+      {
+        "id": "historia",
+        "label": "History",
+        "body": "Since our beginnings, we have grown by integrating productive farmland under unified, professional, long-term management."
+      },
+      {
+        "id": "mision",
+        "label": "Mission",
+        "body": "To bring quality fruit to the world from San Rafael: hazelnuts, cherries, apples and pears grown with precision management, caring for the land and the people who work it."
+      },
+      {
+        "id": "vision",
+        "label": "Vision",
+        "body": "To consolidate ourselves as a benchmark orchard in Maule: producing every year, reaching five continents and remaining the pride of those who work it."
+      },
+      {
+        "id": "equipo",
+        "label": "Team",
+        "body": "A multidisciplinary team of growers, agronomists and engineers committed to operational excellence."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Let's talk. Write or call us and we will get back to you shortly.",
+    "location": "Sector Santa Victoria, San Rafael, Maule Region, Chile"
+  }
+}

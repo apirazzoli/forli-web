@@ -1,4 +1,12 @@
 {
+  "ui": {
+    "navHome": "Inicio",
+    "navAbout": "Nosotros",
+    "navContact": "Contacto",
+    "alsoGrow": "También cultivamos",
+    "terms": "Términos y condiciones",
+    "rights": "Todos los derechos reservados."
+  },
   "brand": {
     "name": "Agrícola Forli",
     "tagline": "Tierra, cultivos y futuro",
@@ -30,6 +38,12 @@
         "imageAlt": "Vista aérea de hileras de cultivo"
       }
     ],
+    "banner": {
+      "image": "https://images.unsplash.com/photo-1778101477174-810f4c441988?auto=format&fit=crop&w=2000&q=70",
+      "imageAlt": "Cerezos en flor en primavera",
+      "title": "El cultivo lo es todo",
+      "body": "Cada primavera, la floración define la temporada. Cuidar el huerto en cada etapa — flor, cuaje, cosecha — es lo que nos permite crecer sin perder nunca la calidad que nos define."
+    },
     "sections": [
       {
         "title": "Agricultura",

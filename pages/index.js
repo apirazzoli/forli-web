@@ -1,10 +1,12 @@
 import Head from "next/head";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import Layout from "../components/Layout";
-import content from "../data/site-content.json";
+import getContent from "../lib/content";
 
 export default function Home() {
-  const { brand, map, home } = content;
+  const { locale } = useRouter();
+  const { brand, map, home } = getContent(locale);
 
   const mapSrc = `https://maps.google.com/maps?q=${encodeURIComponent(
     map.query
@@ -81,6 +83,19 @@ export default function Home() {
           ))}
         </section>
       </div>
+
+      <section className="banner" data-reveal="right">
+        <img
+          src={home.banner.image}
+          alt={home.banner.imageAlt}
+          className="banner-bg"
+          loading="lazy"
+        />
+        <div className="banner-overlay">
+          <h2>{home.banner.title}</h2>
+          <p>{home.banner.body}</p>
+        </div>
+      </section>
     </Layout>
   );
 }
