@@ -39,8 +39,8 @@
       }
     ],
     "banner": {
-      "image": "https://images.unsplash.com/photo-1778101477174-810f4c441988?auto=format&fit=crop&w=2000&q=70",
-      "imageAlt": "Cherry trees in bloom in spring",
+      "image": "/fotos/flores-cerezo.jpg",
+      "imageAlt": "Our cherry trees in bloom in San Rafael",
       "title": "Growing is everything",
       "body": "Every spring, the bloom sets the season. Caring for the orchard at every stage — blossom, fruit set, harvest — is what lets us grow without ever compromising the quality that defines us."
     },
@@ -129,8 +129,8 @@
       {
         "slug": "cerezas",
         "name": "Cherries",
-        "image": "https://images.unsplash.com/photo-1686182368088-c355cb622561?auto=format&fit=crop&w=1600&q=70",
-        "imageAlt": "Ripe cherries on the tree",
+        "image": "/fotos/cereza-principal.jpg",
+        "imageAlt": "Ripe cherries in our San Rafael orchard",
         "intro": "The star export fruit",
         "body": "Chilean cherries are recognized all over the world, and the Maule Region is at the heart of that story. We grow export cherries of high-demand varieties, caring for every stage from bloom to packing.",
         "extra": [
@@ -151,6 +151,21 @@
             "body": "Cherries demand special care at every step: hand picking, rigorous selection, immediate cooling and packaging that protects them on the journey. The whole process is designed so they arrive on the other side of the world as fresh as they left the orchard."
           }
         ],
+        "gallery": {
+          "title": "Our cherries",
+          "items": [
+            {
+              "name": "Hand harvest",
+              "image": "/fotos/cereza-cosecha.jpg",
+              "imageAlt": "Hand-picking cherries in the orchard"
+            },
+            {
+              "name": "The bloom",
+              "image": "/fotos/flores-cerezo.jpg",
+              "imageAlt": "Cherry trees in bloom in spring"
+            }
+          ]
+        },
         "exportMap": {
           "title": "Where we export",
           "marker": "cherry",
@@ -177,8 +192,8 @@
           "items": [
             {
               "name": "Granny Smith",
-              "image": "https://images.unsplash.com/photo-1719024651951-614f7c51bc7e?auto=format&fit=crop&w=800&q=70",
-              "imageAlt": "Green Granny Smith apples"
+              "image": "/fotos/granny-smith.jpg",
+              "imageAlt": "Green Granny Smith apples on the tree"
             },
             {
               "name": "Royal Gala",

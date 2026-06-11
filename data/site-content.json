@@ -39,8 +39,8 @@
       }
     ],
     "banner": {
-      "image": "https://images.unsplash.com/photo-1778101477174-810f4c441988?auto=format&fit=crop&w=2000&q=70",
-      "imageAlt": "Cerezos en flor en primavera",
+      "image": "/fotos/flores-cerezo.jpg",
+      "imageAlt": "Nuestros cerezos en flor en San Rafael",
       "title": "El cultivo lo es todo",
       "body": "Cada primavera, la floración define la temporada. Cuidar el huerto en cada etapa — flor, cuaje, cosecha — es lo que nos permite crecer sin perder nunca la calidad que nos define."
     },
@@ -129,8 +129,8 @@
       {
         "slug": "cerezas",
         "name": "Cerezas",
-        "image": "https://images.unsplash.com/photo-1686182368088-c355cb622561?auto=format&fit=crop&w=1600&q=70",
-        "imageAlt": "Cerezas maduras en el árbol",
+        "image": "/fotos/cereza-principal.jpg",
+        "imageAlt": "Cerezas maduras en nuestro huerto de San Rafael",
         "intro": "La fruta estrella de exportación",
         "body": "La cereza chilena es reconocida en el mundo entero, y la Región del Maule está en el corazón de esa historia. Producimos cerezas de exportación con variedades de alta demanda, cuidando cada etapa desde la floración hasta el embalaje.",
         "extra": [
@@ -151,6 +151,21 @@
             "body": "La cereza exige un cuidado especial en cada paso: cosecha a mano, selección rigurosa, frío inmediato y un embalaje que la proteja durante el viaje. Todo el proceso está pensado para que llegue al otro lado del mundo tan fresca como salió del huerto."
           }
         ],
+        "gallery": {
+          "title": "Nuestras cerezas",
+          "items": [
+            {
+              "name": "Cosecha a mano",
+              "image": "/fotos/cereza-cosecha.jpg",
+              "imageAlt": "Cosecha de cerezas a mano en el huerto"
+            },
+            {
+              "name": "La floración",
+              "image": "/fotos/flores-cerezo.jpg",
+              "imageAlt": "Cerezos en flor en primavera"
+            }
+          ]
+        },
         "exportMap": {
           "title": "Dónde exportamos",
           "marker": "cherry",
@@ -177,8 +192,8 @@
           "items": [
             {
               "name": "Granny Smith",
-              "image": "https://images.unsplash.com/photo-1719024651951-614f7c51bc7e?auto=format&fit=crop&w=800&q=70",
-              "imageAlt": "Manzanas verdes Granny Smith"
+              "image": "/fotos/granny-smith.jpg",
+              "imageAlt": "Manzanas verdes Granny Smith en el árbol"
             },
             {
               "name": "Royal Gala",
